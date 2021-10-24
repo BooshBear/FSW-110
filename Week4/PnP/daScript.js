@@ -16,6 +16,27 @@ document.addEventListener("scroll", function() {
     sq.style.backgroundColor = "purple";
 })
 
-document.addEventListener("keydown", function() {
-    sq.style.backgroundColor = "red";
-})
+document.addEventListener("keydown", keypressed, false)
+
+function keypressed(key) {
+    switch (key.key) {
+        case "r":
+            sq.style.backgroundColor = "red";
+            break;
+        case "y":
+            sq.style.backgroundColor = "yellow";
+            break;
+        case "b":
+            sq.style.backgroundColor = "blue";
+            break;
+        case "g":
+            sq.style.backgroundColor = "green";
+            break;
+        case "p":
+            sq.style.backgroundColor = "purple";
+            break;
+        default:
+            break;
+    }
+}
+
