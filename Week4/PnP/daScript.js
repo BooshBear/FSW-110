@@ -9,6 +9,9 @@ sq.addEventListener("mouseover", function() {
 sq.addEventListener("mousedown", function() {
     sq.style.backgroundColor = "yellow";
 })
+sq.addEventListener("dblclick", function(){
+    sq.style.backgroundColor = "red";
+})
 sq.addEventListener("mouseup", function() {
     sq.style.backgroundColor = "blue";
 })
