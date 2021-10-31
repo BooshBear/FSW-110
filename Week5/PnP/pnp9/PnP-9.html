@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="daCSS.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" name="myForm">
+            <h1>First Name</h1>
+            <input type="text" name="fname">
+            <h1>Last Name</h1>
+            <input type="text" name="lname">
+            <h1>Age</h1>
+            <input type="number" name="age">
+            <h1>Have you shopped with us before?</h1>
+            <input type="radio" id="yes" name="yes_no" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="yes_no" value="no">
+            <label for="no">No</label>
+            <h1>How likely would you recommend this to a friend?</h1>
+            <select name="recommend" id="recommend">
+                <option value="not_likely">not likely</option>
+                <option value="somewhat_likely">somewhat likely</option>
+                <option value="likely">likely</option>
+            </select>
+            <h1>Do you have any dietary restrictions?</h1>
+            <input type="checkbox" id="glut" name="dietR" value="glut">
+            <label for="glut">Glutten Free</label>
+            <input type="checkbox" id="keto" name="dietR" value="keto">
+            <label for="keto">Keto</label>
+            <input type="checkbox" id="vege" name="dietR" value="vege">
+            <label for="vege">Vegetarian</label>
+            <h1></h1>
+            <button id="btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="daScript.js"></script>
+</body>
+</html>
