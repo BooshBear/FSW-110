@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: darkslateblue;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#name {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#color {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    min-width: 10rem;
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+ul {
+    margin-top: 1rem;
+    list-style: none;
+}
+li {
+    margin-bottom: 10px;
+}
