@@ -1,6 +1,7 @@
 let sum = document.getElementById("result");
 
-sum.addEventListener("click", function(){
+sum.addEventListener("click", function(e){
+    e.preventDefault();
     let bagel = document.getElementById("bagel").value;
     let bagelCost = bagel*3;
     let tea = document.getElementById("tea").value;
