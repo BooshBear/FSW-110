@@ -18,10 +18,6 @@ form {
     align-items: center;
     margin-top: 1rem;
 }
-#name {
-    margin-bottom: 1rem;
-    text-align: center;
-}
 #color {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -30,7 +26,6 @@ form {
     min-height: 10rem;
     padding: 1rem;
 }
-
 ul {
     margin-top: 1rem;
     list-style: none;
